@@ -1,32 +1,40 @@
-# Prerequisites
-*.d
+# Binaries and build artifacts
+build/*
+bin/*
+contribs/*
+appdir/*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Private signatures
+assets/ios/ios_signature.pri
+assets/macos/macos_signature.pri
 
-# Precompiled Headers
-*.gch
-*.pch
+# QtCreator temporary project files
+QmlMyPlayer.config
+MyPlayer.creator*
+MyPlayer.files
+MyPlayer.includes
+MyPlayer.pro.*
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Qt Quick Compiler
+qrc_resources.cpp
+qmlcache_loader.cpp
+qml_*qml.cpp
 
-# Fortran module files
-*.mod
-*.smod
+# QMake temporary project files
+Makefile
+.qmake.stash
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# CMake temporary project files
+CMakeLists.txt.user
 
-# Executables
-*.exe
-*.out
-*.app
+# XCode related
+Debug/*
+Release/*
+MyPlayer.xcodeproj/*
+asset_catalog_compiler.Info.plist
+
+# Others
+stash/*
+.DS_Store
+
+build
